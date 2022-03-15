@@ -1,0 +1,124 @@
+
+<html>
+    <head>
+        <title>RegistrationForm</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            
+            }
+        input[type=text],[type=email], [type=password] , select{
+            width: 70%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            }
+        option{
+            font-size: 16;
+                
+        }
+        input[type=submit] {
+            width: 40%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+             }
+        input[type=reset] {
+            width: 40%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            }
+
+        input[type=reset]:hover {
+            background-color: #45a049;
+             }
+        input[type=radio]{
+            height: 20px;
+            cursor: pointer;
+            
+        }
+        fieldset{
+            border: none;
+            width: 60%;
+            height: 650px;
+            margin: 30px 0 0 20%;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            
+            }
+        strong{font-size: 25;}
+    </style>
+    <body>
+        <div class="header">
+            <h1>WELCOME TO IKGPTU</h1>
+            <P>study material of engineering Student(ECE)
+            </P>
+        </div>
+        <div class="navbar">
+            <a href="index.html">HOME</a>
+            <a href="regitration.html">REGISTRATION</a>            
+            <a href="syllabus.html">SYLLABUS</a>
+            <a href="book.html">BOOKS</a>
+            <a href="lords.html">LORDS</a>
+            <a href="practiclefile.html">PRATICALS FILES</a>
+            <a href="notes.html">NOTES</a>
+            <a href="previousquestion.html">PREVIOUS QUESTION PAPER</a>
+            <a href="faculty.html">ABOUT FACULTY</a>
+
+
+        </div>
+        <form>
+            <fieldset>
+                <legend><strong>Student Details</strong></legend>
+                First name: <input type="text" name="firstname" placeholder="Enter your first name"><br><br>
+                Last name:  <input type="text" name="lastname" placeholder="Enter your Last name"><br><br>
+                gender : <input type="radio" name="gender">Male 
+                      <input type="radio" name="gender">Female<br><br>
+
+               Are you ikgptu student: 
+                    <input type="radio" name="student">yes
+                    <input type="radio" name="student">no
+                <br><br>
+                branch : 
+                <select name="branch">
+                    <option value="#"selected>select your branch--</option>
+                    <option value="ce">ce</option>
+                    <option value="cse">cse</option>
+                    <option value="coe">coe</option>
+                    <option value="ece">ece</option>
+                    <option value="ee">ee</option>
+                    <option value="me">me</option>
+                </select>
+                <br><br>
+                Username : <input type="email" name="username"><br><br>
+                Password : <input type="password" name="password"><br><br>
+                Photo : <input type="file" name="choose file"><br><br>
+                sign : <input type="file" name="choose file"><br><br>
+                 <input type="submit"> <input type="reset">  
+            </fieldset>
+        </form>
+        <footer class="footer2">
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+
+
+        </footer>
+    </body>
+</html>
